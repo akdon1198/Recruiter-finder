@@ -1,0 +1,72 @@
+.container {
+  background: #f5f5fb;
+  width: 100%;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.location-input-name {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 300;
+  margin: 2rem;
+  outline: none;
+  border: #f5f5fb;
+}
+
+.job-input-name {
+  margin: 2rem;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 300;
+  outline: none;
+  border: #f5f5fb;
+}
+.search-button {
+  width: 83px;
+  height: 36px;
+  border-radius: 100px;
+  background: #4ba4b1;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-button-name {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listitem {
+  width: 787px;
+  height: 138px;
+  background: #fff;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.listitemimg {
+  width: 177px;
+  height: 124px;
+  background: #4ba4b1;
+}
+.listitemuserdata {
+  display: flex;
+}
+.listitemuserdataname {
+  margin: 2rem;
+  color: #000;
+  font-size: 32px;
+  font-family: Inter;
+}

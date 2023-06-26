@@ -1,0 +1,16 @@
+export const userdummydata = [
+  { location: "chennai", job: "full stack" },
+  { location: "delhi", job: "frontend" },
+  { location: "gurgaon", job: "backend" },
+  { location: "noida", job: "devops" },
+  { location: "banglore", job: "designer" },
+  { location: "ahmdabad", job: "ui/ux" },
+  { location: "pune", job: "reactjs" },
+  { location: "gujrat", job: "nodejs" },
+  { location: "jharkhand", job: "expressjs" },
+  { location: "up", job: "mongodb" },
+  { location: "kerala", job: "django" },
+  { location: "chandigarh", job: "flask" },
+  { location: "ambala", job: "web3" },
+  { location: "goa", job: "game dev" },
+];

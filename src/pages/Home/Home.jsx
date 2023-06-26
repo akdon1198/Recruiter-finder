@@ -1,6 +1,9 @@
 import "../Home/Home.css";
 import { NavLink } from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux"
 function Home() {
+  const val = useSelector(state => state.user.currentuser)
+  console.log(val);
   return (
     <>
       <div className="head-section">
